@@ -1,0 +1,34 @@
+Book My Show - This application provides information about movies/events based on different categories like genres,languages,locations etc. and provides option to book tickets for these.
+
+Actors/Users for the application are below
+1)End User 
+2)Movie Theatre/Event Owner
+3)System
+
+Sequence of Events for the Actors
+1)End User
+	->Select the location
+	->Select the movie/event from the Search List
+	->Book Tickets by selecting the Date,theatre/event timings,no of seats and seat location
+	->Make the payment
+	->Add Reviews/Ratings to a movie/event
+
+2)Movie Theatre/Event Owner
+	->Register the Theatre/Event in Book My Show
+	->Provide Details like Movies/Events available,information of the movie/event, show timings, theatre 			capacity, seating details.
+	->Provide Discount Codes/Vouchers if available
+
+3)System
+	->Onboarding of Movie/Event
+	->Notifications to User/Theatre/Event owner
+	->User and Theatre/Event owner login/Athentication and Authorization
+	->Payment Module
+	->Generate QR Codes/Tickets to End User
+	->Maintain Reviews/Ratings
+
+Common activities are below
+	->Login
+	->Notifications
+	->Rating
+	->Logging
+
