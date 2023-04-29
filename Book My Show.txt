@@ -15,11 +15,12 @@ Sequence of Events for the Actors
 
 2)Movie Theatre/Event Owner
 	->Register the Theatre/Event in Book My Show
-	->Provide Details like Movies/Events available,information of the movie/event, show timings, theatre 			capacity, seating details.
+	->Provide Details like Movies/Events available,information of the movie/event, show timings, theatre capacity, seating details.
 	->Provide Discount Codes/Vouchers if available
 
 3)System
 	->Onboarding of Movie/Event
+	->Management of Tickets and allocation
 	->Notifications to User/Theatre/Event owner
 	->User and Theatre/Event owner login/Athentication and Authorization
 	->Payment Module
