@@ -1,0 +1,33 @@
+Design Patterns
+
+1)Creational Design Pattern - Factory
+	1.1)IEventType
+		->Movie
+		->Event
+
+	1.2)ISearchCriteria
+		->Genre
+		->Language
+
+	1.3)IEventCategory
+		->Comedy
+		->Thriller
+
+2)Singleton Design Pattern
+	2.1)Ticket Manager for each city
+	
+3)Oberver Design Pattern
+	3.1)Ticket Booking notification(Updation of ticket booking,cancellation)
+		Publisher - Ticket Booking Manager
+		Subject - Theatre Owner and Customer
+	3.2)Promotions
+		Publisher - Movie Manager
+		Subject - Customers
+	3.3)New Movie notification
+		Publisher - Movie Manager
+		Subject -Customers
+
+4)Strategy Design Pattern
+	4.1)Payment Module - Cash On Delivery, Debit Card
+	4.2)Location Based Movies/Events
+		
